@@ -1,4 +1,4 @@
-module github.com/selcux/data-pipeline-sample/ViewProducerApp
+module github.com/selcux/data-pipeline-sample/StreamReaderApp
 
 go 1.16
 
