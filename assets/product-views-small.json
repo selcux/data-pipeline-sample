@@ -1,0 +1,5 @@
+{"event": "ProductView", "messageid": "6b1291ea-e50d-425b-9940-44c2aff089c1", "userid": "user-78", "properties": {"productid": "product-173"}, "context": {"source": "desktop"}}
+{"event": "ProductView", "messageid": "b8b14eb3-8e39-42a3-9528-a323b10a7686", "userid": "user-74", "properties": {"productid": "product-230"}, "context": {"source": "desktop"}}
+{"event": "ProductView", "messageid": "23db4f01-1576-415d-83cd-dce2d1bd28a2", "userid": "user-155", "properties": {"productid": "product-38"}, "context": {"source": "mobile-app"}}
+{"event": "ProductView", "messageid": "9a01da3e-d1ea-43da-826e-333a6867ef57", "userid": "user-228", "properties": {"productid": "product-42"}, "context": {"source": "mobile-app"}}
+{"event": "ProductView", "messageid": "b057f6a7-44f7-4f6c-a9e7-d17df9ee6088", "userid": "user-346", "properties": {"productid": "product-784"}, "context": {"source": "desktop"}}
