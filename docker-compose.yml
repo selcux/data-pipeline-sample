@@ -64,12 +64,12 @@ services:
       FILE_SOURCE: /assets/product-views-small.json
       KAFKA_BROKER: kafka:9092
       KAFKA_TOPIC: product-view
+    restart: on-failure
     depends_on:
       - kafka
     networks:
       - kafka-network
     volumes:
-      # - /home/selcuk/go/src/github.com/selcux/data-pipeline-sample/assets:/assets
       - ./assets:/assets
   
   stream-reader-app:
@@ -81,6 +81,7 @@ services:
       KAFKA_BROKER: kafka:9092
       KAFKA_TOPIC: product-view
       GROUP_ID: group1
+    restart: on-failure
     depends_on: 
       - kafka
     networks: 
